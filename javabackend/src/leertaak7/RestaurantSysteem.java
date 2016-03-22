@@ -10,6 +10,7 @@ import model.Tafel;
 import server.JSONFileServer;
 
 /* @author Zak Wever */
+/* ding */
 public class RestaurantSysteem {
 	
 	private ArrayList<Bestelling> bestellingen;

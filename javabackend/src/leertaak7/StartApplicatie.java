@@ -7,6 +7,7 @@ import model.Gezelschap;
 import server.JSONFileServer;
 
 /* @author Zak Wever */
+/* ding */
 public class StartApplicatie {
 	
 	private String bestelUrl;
