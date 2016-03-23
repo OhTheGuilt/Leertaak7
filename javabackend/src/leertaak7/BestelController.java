@@ -3,6 +3,7 @@ package controller;
 import server.Conversation;
 import server.Handler;
 
+<<<<<<< HEAD
 /* @author Zak Wever */
 /* ding */
 public class BestelController implements Handler {
@@ -11,10 +12,22 @@ public class BestelController implements Handler {
 	
 	public BestelController(RestaurantSysteem restSys) {
 		restaurantSysteem = restSys;
+=======
+/**
+ *@author Zak Wever
+ *
+ */
+public class BestelController implements Handler {
+
+	
+	public BestelController(RestaurantSysteem restaurantSysteem) {
+		
+>>>>>>> master
 		
 	}
 	
 	public void handle(Conversation conversation) {
+<<<<<<< HEAD
 		if (conversation.getRequestedURI().startsWith(" ")) {
 			System.out.println("iets");
 		}
@@ -38,4 +51,15 @@ public class BestelController implements Handler {
 	}
 	
 	
+=======
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+	
+
+>>>>>>> master
 }

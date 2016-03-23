@@ -1,5 +1,6 @@
 package controller;
 
+<<<<<<< HEAD
 import java.io.File;
 import java.util.ArrayList;
 
@@ -29,5 +30,30 @@ public class RestaurantSysteem {
 	}
 	
 	
+=======
+import java.util.ArrayList;
+
+import model.Reservering;
+
+/**
+ *@author Zak Wever
+ *
+ */
+
+public class RestaurantSysteem {
+	
+	private static ArrayList<Reservering> reserveringen = new ArrayList<Reservering>();
+	
+	public RestaurantSysteem() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+>>>>>>> master
 
 }
